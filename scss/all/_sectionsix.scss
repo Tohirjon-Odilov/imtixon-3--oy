@@ -70,3 +70,18 @@
     }
   }
 }
+@media (max-width: $breakpoint_m) {
+  #section6 {
+    .cards{
+     
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      .item1{
+        margin: 0 15px;
+      }
+    }
+    
+  }
+}
+

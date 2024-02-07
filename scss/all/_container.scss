@@ -4,10 +4,14 @@
     width: 100%;
     padding: 0 10px;
 }
+body{
+    overflow-x: hidden;
+}
 @media(max-width:768px){
     .container{
-        max-width: 720px;
+        max-width: 768px;
         margin: 0 auto;
+        padding: 0 16px;
     }
 
 }

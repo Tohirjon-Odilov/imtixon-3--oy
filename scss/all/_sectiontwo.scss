@@ -108,7 +108,9 @@
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
       }
       .wrapper__item-text {
+       
         h1 {
+          text-align: center;
           width: 300px;
           margin: 0 auto;
           color: var(--Gray-900, #111827);
