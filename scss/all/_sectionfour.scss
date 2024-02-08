@@ -1,227 +1,315 @@
-#section4 {
-  padding: 66px 0px;
-  .btn {
-    margin: 0 auto;
-    display: flex;
-    padding: 4px 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    background: var(--Gray-200, #e5e7eb);
-    margin-bottom: 16px;
-  }
-  h4 {
-    color: var(--Gray-600, #4b5563);
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px; /* 140% */
-    padding-bottom: 48px;
-  }
-  .row1 {
-    display: flex;
-    width: 896px;
-    padding: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 12px;
-    background: var(--Gray-Default, #ffff);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
-      0px 4px 3px 0px rgba(0, 0, 0, 0.07);
-    margin: 0 auto;
-    padding-bottom: 48px;
-    margin-bottom: 48px;
-
-    .flex {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      img {
-        width: 105px;
-        height: 30px;
-      }
-      .cardlist {
-        h1 {
-          color: var(--Gray-900, #111827);
-          font-family: Inter;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 600;
-          margin-top: 0px;
-        }
-        li{
-          color: var(--Gray-600, #4b5563);
-          width: 374px;
-          font-family: Inter;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 150% */
-        }
-      }
-    }
-  }
-  .row2 {
-    display: flex;
-    width: 896px;
-    padding: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 12px;
-    background: var(--Gray-Default, #ffff);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
-      0px 4px 3px 0px rgba(0, 0, 0, 0.07);
-    margin: 0 auto;
-    margin-bottom: 48px;
-
-    .flex {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      img {
-        width: 105px;
-        height: 30px;
-      }
-      .cardlist {
-        h1 {
-          color: var(--Gray-900, #111827);
-          font-family: Inter;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 600;
-          margin-top: 0px;
-        }
-        li {
-          color: var(--Gray-600, #4b5563);
-          width: 374px;
-          font-family: Inter;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 150% */
-        }
-      }
-    }
-  }
-  .row3 {
-    display: flex;
-    width: 896px;
-    padding: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 12px;
-    background: var(--Gray-Default, #ffff);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
-      0px 4px 3px 0px rgba(0, 0, 0, 0.07);
-    margin: 0 auto;
-    margin-bottom: 48px;
-
-    .flex {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      img {
-        width: 105px;
-        height: 30px;
-      }
-      .cardlist {
-        h1 {
-          color: var(--Gray-900, #111827);
-          font-family: Inter;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 600;
-          margin-top: 0px;
-        }
-        li {
-          color: var(--Gray-600, #4b5563);
-          width: 374px;
-          font-family: Inter;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 150% */
-        }
-      }
-    }
-  }
-}
-@media (max-width: $breakpoint_m) {
+.white{
   #section4 {
-  
+    padding: 66px 0px;
+    .btn {
+      margin: 0 auto;
+      display: flex;
+      padding: 4px 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background: var(--Gray-200, #e5e7eb);
+      margin-bottom: 16px;
+    }
+    h4 {
+      color: var(--Gray-600, #4b5563);
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 140% */
+      padding-bottom: 48px;
+    }
     .row1 {
+      display: flex;
+      width: 896px;
+      padding: 32px;
+      flex-direction: column;
+      align-items: flex-start;
+      border-radius: 12px;
+      background: var(--Gray-Default, #ffff);
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+        0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+      margin: 0 auto;
+      padding-bottom: 48px;
+      margin-bottom: 48px;
+  
       .flex {
-        padding: 20px;
-        max-width: 300px;
-        height: 377px;
-        flex-direction: column;
-        border-radius: 12px;
-        background: var(--Gray-Default, #fff);
-
-        /* Drop Shadow/md */
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
-          0px 4px 3px 0px rgba(0, 0, 0, 0.07);
-        li {
-          color: var(--Gray-600, #4b5563);
-          max-width: 259px;
-          /* Body2/Normal - All */
-          font-family: Inter;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 150% */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 105px;
+          height: 30px;
+        }
+        .cardlist {
+          h1 {
+            color: var(--Gray-900, #111827);
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 0px;
+          }
+          li{
+            color: var(--Gray-600, #4b5563);
+            width: 374px;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
         }
       }
     }
     .row2 {
+      display: flex;
+      width: 896px;
+      padding: 32px;
+      flex-direction: column;
+      align-items: flex-start;
+      border-radius: 12px;
+      background: var(--Gray-Default, #ffff);
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+        0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+      margin: 0 auto;
+      margin-bottom: 48px;
+  
       .flex {
-        padding: 20px;
-        max-width: 300px;
-        height: 377px;
-        flex-direction: column;
-        border-radius: 12px;
-        background: var(--Gray-Default, #fff);
-
-        /* Drop Shadow/md */
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
-          0px 4px 3px 0px rgba(0, 0, 0, 0.07);
-        li {
-          color: var(--Gray-600, #4b5563);
-          max-width: 259px;
-          /* Body2/Normal - All */
-          font-family: Inter;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 150% */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 105px;
+          height: 30px;
+        }
+        .cardlist {
+          h1 {
+            color: var(--Gray-900, #111827);
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 0px;
+          }
+          li {
+            color: var(--Gray-600, #4b5563);
+            width: 374px;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
         }
       }
     }
     .row3 {
+      display: flex;
+      width: 896px;
+      padding: 32px;
+      flex-direction: column;
+      align-items: flex-start;
+      border-radius: 12px;
+      background: var(--Gray-Default, #ffff);
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+        0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+      margin: 0 auto;
+      margin-bottom: 48px;
+  
       .flex {
-        padding: 20px;
-        max-width: 300px;
-        height: 377px;
-        flex-direction: column;
-        border-radius: 12px;
-        background: var(--Gray-Default, #fff);
-
-        /* Drop Shadow/md */
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
-          0px 4px 3px 0px rgba(0, 0, 0, 0.07);
-        li {
-          color: var(--Gray-600, #4b5563);
-          max-width: 259px;
-          /* Body2/Normal - All */
-          font-family: Inter;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 150% */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 105px;
+          height: 30px;
+        }
+        .cardlist {
+          h1 {
+            color: var(--Gray-900, #111827);
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 0px;
+          }
+          li {
+            color: var(--Gray-600, #4b5563);
+            width: 374px;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
         }
       }
     }
   }
+  @media (max-width: $breakpoint_m) {
+    #section4 {
+    
+      .row1 {
+        width: 320px;
+        .flex {
+          padding: 20px;
+          max-width: 300px;
+          height: 377px;
+          flex-direction: column;
+          border-radius: 12px;
+          background: var(--Gray-Default, #fff);
+  
+          /* Drop Shadow/md */
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+            0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+          li {
+            color: var(--Gray-600, #4b5563);
+            max-width: 259px;
+            /* Body2/Normal - All */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
+        }
+      }
+      .row2 {
+        width: 320px;
+        .flex {
+          padding: 20px;
+          max-width: 300px;
+          height: 377px;
+          flex-direction: column;
+          border-radius: 12px;
+          background: var(--Gray-Default, #fff);
+  
+          /* Drop Shadow/md */
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+            0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+          li {
+            color: var(--Gray-600, #4b5563);
+            max-width: 259px;
+            /* Body2/Normal - All */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
+        }
+      }
+      .row3 {
+        width: 320px;
+        .flex {
+          padding: 20px;
+          max-width: 300px;
+          height: 377px;
+          flex-direction: column;
+          border-radius: 12px;
+          background: var(--Gray-Default, #fff);
+  
+          /* Drop Shadow/md */
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+            0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+          li {
+            color: var(--Gray-600, #4b5563);
+            max-width: 259px;
+            /* Body2/Normal - All */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
+        }
+      }
+    }
+  }
+  
+}
+.dark{
+  #section4 {
+   background: #000;
+    .btn {
+     
+    }
+    h4 {
+     color: #fff;
+    }
+    .row1 {
+     background: #1F2937;
+      .flex {
+        background: #1F2937;
+        img {
+          width: 105px;
+          height: 30px;
+        }
+        .cardlist {
+          h1 {
+           color: #fff;
+           
+          }
+          li{
+            color: var(--Gray-600, #d3dae2);
+           
+          }
+        
+      }
+      p{
+        color: #fff !important;
+       }
+    }
+    }
+    .row2 {
+      background: #1F2937;
+       .flex {
+         background: #1F2937;
+         img {
+           width: 105px;
+           height: 30px;
+         }
+         .cardlist {
+           h1 {
+            color: #fff;
+            
+           }
+           li{
+             color: var(--Gray-600, #d3dae2);
+            
+           }
+           p{
+            color: #fff;
+           }
+         }
+       }
+     }
+     .row3 {
+      background: #1F2937;
+       .flex {
+         background: #1F2937;
+         img {
+           width: 105px;
+           height: 30px;
+         }
+         .cardlist {
+           h1 {
+            color: #fff;
+            
+           }
+           li{
+             color: var(--Gray-600, #d3dae2);
+            
+           }
+           p{
+            color: #fff;
+           }
+         }
+       }
+     }
+  }
+  
 }

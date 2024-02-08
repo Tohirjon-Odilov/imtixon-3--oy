@@ -10,8 +10,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
-
-<body>
+<body class="white dark">
     <!-- -------- Header start  ------- -->
     <header>
         <div class="container">
@@ -21,17 +20,20 @@
                         < MH />
                     </h1>
                 </a>
-                <ul class="nav__list">
+                <ul class="nav__list d-none">
                     <li class="nav__list--item"><a href="#" class="nav__list--item-link">About</a></li>
                     <li class="nav__list--item"><a href="#" class="nav__list--item-link">Work</a></li>
                     <li class="nav__list--item"><a href="#" class="nav__list--item-link">Testimonals</a></li>
                     <li class="nav__list--item"><a href="#" class="nav__list--item-link">Contact</a></li>
-                    <i class='bx bx-sun'></i>
+                    <i id="icon" class='bx bx-sun'></i>
 
                     <button class="btn">Download CV</button>
                 </ul>
-               <i class='bx bx-menu  nav__listt--item-menu-btn'></i>
-
+                <div class="header__mobile-icons">
+                    <i class='bx bx-menu  nav__listt--item-menu-btn '></i>
+                    <i class='bx bx-x d-none nav__listt--item-menu-cls' ></i>
+                </div>
+              
             </nav>
         </div>
     </header>
@@ -415,5 +417,5 @@
         </div>
     </footer>
 </body>
-
+<script src="./script.js"></script>
 </html>
