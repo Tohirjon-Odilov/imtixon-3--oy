@@ -333,6 +333,9 @@ body {
 }
 .white header {
   width: 100%;
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(20px);
 }
 .white header .nav {
   display: flex;
